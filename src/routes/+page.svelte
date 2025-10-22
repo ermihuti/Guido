@@ -34,7 +34,7 @@ function filterAndSearch() {
 				My Account
 			</a>
 
-			<form action="/logout?/logout" method="POST">
+			<form action="/logoutDelete?/logout" method="POST">
 				<button
 					type="submit"
 					class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm"

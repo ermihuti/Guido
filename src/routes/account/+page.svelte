@@ -64,12 +64,13 @@
 			>
 				Edit Profile
 			</a>
-			<a
-				href={`/delete/${data.user.id}`}
-				class="px-5 py-2 rounded-full bg-red-500 text-white font-semibold shadow hover:bg-red-600 transition"
-			>
-				Delete Account
-			</a>
+			<form action="/logoutDelete?/deleteAcc" method="POST">
+				<button
+					class="px-5 py-2 rounded-full bg-red-500 text-white font-semibold shadow hover:bg-red-600 transition"
+				>
+					Delete Account
+				</button>
+			</form>
 		</div>
 	</div>
 {:else}
